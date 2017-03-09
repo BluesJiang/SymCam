@@ -1,537 +1,1461 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		131E216C1E71303900F3D69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E216B1E71303900F3D69F /* main.m */; };
-		131E216F1E71303900F3D69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E216E1E71303900F3D69F /* AppDelegate.m */; };
-		131E21721E71303900F3D69F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E21711E71303900F3D69F /* ViewController.m */; };
-		131E21751E71303900F3D69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131E21731E71303900F3D69F /* Main.storyboard */; };
-		131E21771E71303900F3D69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131E21761E71303900F3D69F /* Assets.xcassets */; };
-		131E217A1E71303900F3D69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131E21781E71303900F3D69F /* LaunchScreen.storyboard */; };
-		131E21851E71303900F3D69F /* SymCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E21841E71303900F3D69F /* SymCamTests.m */; };
-		131E21901E71303900F3D69F /* SymCamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E218F1E71303900F3D69F /* SymCamUITests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		131E21811E71303900F3D69F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 131E215F1E71303800F3D69F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 131E21661E71303800F3D69F;
-			remoteInfo = SymCam;
-		};
-		131E218C1E71303900F3D69F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 131E215F1E71303800F3D69F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 131E21661E71303800F3D69F;
-			remoteInfo = SymCam;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		131E21671E71303900F3D69F /* SymCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		131E216B1E71303900F3D69F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		131E216D1E71303900F3D69F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		131E216E1E71303900F3D69F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		131E21701E71303900F3D69F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		131E21711E71303900F3D69F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		131E21741E71303900F3D69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		131E21761E71303900F3D69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		131E21791E71303900F3D69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		131E217B1E71303900F3D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		131E21801E71303900F3D69F /* SymCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		131E21841E71303900F3D69F /* SymCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymCamTests.m; sourceTree = "<group>"; };
-		131E21861E71303900F3D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		131E218B1E71303900F3D69F /* SymCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		131E218F1E71303900F3D69F /* SymCamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymCamUITests.m; sourceTree = "<group>"; };
-		131E21911E71303900F3D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		131E21641E71303800F3D69F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		131E217D1E71303900F3D69F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		131E21881E71303900F3D69F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		131E215E1E71303800F3D69F = {
-			isa = PBXGroup;
-			children = (
-				131E21691E71303900F3D69F /* SymCam */,
-				131E21831E71303900F3D69F /* SymCamTests */,
-				131E218E1E71303900F3D69F /* SymCamUITests */,
-				131E21681E71303900F3D69F /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		131E21681E71303900F3D69F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				131E21671E71303900F3D69F /* SymCam.app */,
-				131E21801E71303900F3D69F /* SymCamTests.xctest */,
-				131E218B1E71303900F3D69F /* SymCamUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		131E21691E71303900F3D69F /* SymCam */ = {
-			isa = PBXGroup;
-			children = (
-				131E216D1E71303900F3D69F /* AppDelegate.h */,
-				131E216E1E71303900F3D69F /* AppDelegate.m */,
-				131E21701E71303900F3D69F /* ViewController.h */,
-				131E21711E71303900F3D69F /* ViewController.m */,
-				131E21731E71303900F3D69F /* Main.storyboard */,
-				131E21761E71303900F3D69F /* Assets.xcassets */,
-				131E21781E71303900F3D69F /* LaunchScreen.storyboard */,
-				131E217B1E71303900F3D69F /* Info.plist */,
-				131E216A1E71303900F3D69F /* Supporting Files */,
-			);
-			path = SymCam;
-			sourceTree = "<group>";
-		};
-		131E216A1E71303900F3D69F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				131E216B1E71303900F3D69F /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		131E21831E71303900F3D69F /* SymCamTests */ = {
-			isa = PBXGroup;
-			children = (
-				131E21841E71303900F3D69F /* SymCamTests.m */,
-				131E21861E71303900F3D69F /* Info.plist */,
-			);
-			path = SymCamTests;
-			sourceTree = "<group>";
-		};
-		131E218E1E71303900F3D69F /* SymCamUITests */ = {
-			isa = PBXGroup;
-			children = (
-				131E218F1E71303900F3D69F /* SymCamUITests.m */,
-				131E21911E71303900F3D69F /* Info.plist */,
-			);
-			path = SymCamUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		131E21661E71303800F3D69F /* SymCam */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 131E21941E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCam" */;
-			buildPhases = (
-				131E21631E71303800F3D69F /* Sources */,
-				131E21641E71303800F3D69F /* Frameworks */,
-				131E21651E71303800F3D69F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SymCam;
-			productName = SymCam;
-			productReference = 131E21671E71303900F3D69F /* SymCam.app */;
-			productType = "com.apple.product-type.application";
-		};
-		131E217F1E71303900F3D69F /* SymCamTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 131E21971E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamTests" */;
-			buildPhases = (
-				131E217C1E71303900F3D69F /* Sources */,
-				131E217D1E71303900F3D69F /* Frameworks */,
-				131E217E1E71303900F3D69F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				131E21821E71303900F3D69F /* PBXTargetDependency */,
-			);
-			name = SymCamTests;
-			productName = SymCamTests;
-			productReference = 131E21801E71303900F3D69F /* SymCamTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		131E218A1E71303900F3D69F /* SymCamUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 131E219A1E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamUITests" */;
-			buildPhases = (
-				131E21871E71303900F3D69F /* Sources */,
-				131E21881E71303900F3D69F /* Frameworks */,
-				131E21891E71303900F3D69F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				131E218D1E71303900F3D69F /* PBXTargetDependency */,
-			);
-			name = SymCamUITests;
-			productName = SymCamUITests;
-			productReference = 131E218B1E71303900F3D69F /* SymCamUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		131E215F1E71303800F3D69F /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = blues;
-				TargetAttributes = {
-					131E21661E71303800F3D69F = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = C2E7L29F76;
-						ProvisioningStyle = Automatic;
-					};
-					131E217F1E71303900F3D69F = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = C2E7L29F76;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 131E21661E71303800F3D69F;
-					};
-					131E218A1E71303900F3D69F = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = C2E7L29F76;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 131E21661E71303800F3D69F;
-					};
-				};
-			};
-			buildConfigurationList = 131E21621E71303800F3D69F /* Build configuration list for PBXProject "SymCam" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 131E215E1E71303800F3D69F;
-			productRefGroup = 131E21681E71303900F3D69F /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				131E21661E71303800F3D69F /* SymCam */,
-				131E217F1E71303900F3D69F /* SymCamTests */,
-				131E218A1E71303900F3D69F /* SymCamUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		131E21651E71303800F3D69F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				131E217A1E71303900F3D69F /* LaunchScreen.storyboard in Resources */,
-				131E21771E71303900F3D69F /* Assets.xcassets in Resources */,
-				131E21751E71303900F3D69F /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		131E217E1E71303900F3D69F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		131E21891E71303900F3D69F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		131E21631E71303800F3D69F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				131E21721E71303900F3D69F /* ViewController.m in Sources */,
-				131E216F1E71303900F3D69F /* AppDelegate.m in Sources */,
-				131E216C1E71303900F3D69F /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		131E217C1E71303900F3D69F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				131E21851E71303900F3D69F /* SymCamTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		131E21871E71303900F3D69F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				131E21901E71303900F3D69F /* SymCamUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		131E21821E71303900F3D69F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 131E21661E71303800F3D69F /* SymCam */;
-			targetProxy = 131E21811E71303900F3D69F /* PBXContainerItemProxy */;
-		};
-		131E218D1E71303900F3D69F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 131E21661E71303800F3D69F /* SymCam */;
-			targetProxy = 131E218C1E71303900F3D69F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		131E21731E71303900F3D69F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				131E21741E71303900F3D69F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		131E21781E71303900F3D69F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				131E21791E71303900F3D69F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		131E21921E71303900F3D69F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		131E21931E71303900F3D69F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		131E21951E71303900F3D69F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C2E7L29F76;
-				INFOPLIST_FILE = SymCam/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCam;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		131E21961E71303900F3D69F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C2E7L29F76;
-				INFOPLIST_FILE = SymCam/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCam;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		131E21981E71303900F3D69F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = C2E7L29F76;
-				INFOPLIST_FILE = SymCamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymCam.app/SymCam";
-			};
-			name = Debug;
-		};
-		131E21991E71303900F3D69F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = C2E7L29F76;
-				INFOPLIST_FILE = SymCamTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymCam.app/SymCam";
-			};
-			name = Release;
-		};
-		131E219B1E71303900F3D69F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = C2E7L29F76;
-				INFOPLIST_FILE = SymCamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SymCam;
-			};
-			name = Debug;
-		};
-		131E219C1E71303900F3D69F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = C2E7L29F76;
-				INFOPLIST_FILE = SymCamUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SymCam;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		131E21621E71303800F3D69F /* Build configuration list for PBXProject "SymCam" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				131E21921E71303900F3D69F /* Debug */,
-				131E21931E71303900F3D69F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		131E21941E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCam" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				131E21951E71303900F3D69F /* Debug */,
-				131E21961E71303900F3D69F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		131E21971E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				131E21981E71303900F3D69F /* Debug */,
-				131E21991E71303900F3D69F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		131E219A1E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				131E219B1E71303900F3D69F /* Debug */,
-				131E219C1E71303900F3D69F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 131E215F1E71303800F3D69F /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>07105887F02533DCF8FD2611</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SymCamUITests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SymCamUITests/Pods-SymCamUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0E98B4D58E38BAD08F1D7B7D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SymCam/Pods-SymCam-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>114632DA4B4FA90A95AFF639</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-SymCamTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>1301BECE1DBFF205705263B2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SymCamUITests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SymCamUITests/Pods-SymCamUITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E215E1E71303800F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E21691E71303900F3D69F</string>
+				<string>131E21831E71303900F3D69F</string>
+				<string>131E218E1E71303900F3D69F</string>
+				<string>131E21681E71303900F3D69F</string>
+				<string>F5C0036FD435328B02AED32B</string>
+				<string>BB53601D995F5D1586ED3492</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E215F1E71303800F3D69F</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0820</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>blues</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>131E21661E71303800F3D69F</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.2.1</string>
+						<key>DevelopmentTeam</key>
+						<string>C2E7L29F76</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+					<key>131E217F1E71303900F3D69F</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.2.1</string>
+						<key>DevelopmentTeam</key>
+						<string>C2E7L29F76</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>131E21661E71303800F3D69F</string>
+					</dict>
+					<key>131E218A1E71303900F3D69F</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.2.1</string>
+						<key>DevelopmentTeam</key>
+						<string>C2E7L29F76</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>131E21661E71303800F3D69F</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>131E21621E71303800F3D69F</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>131E215E1E71303800F3D69F</string>
+			<key>productRefGroup</key>
+			<string>131E21681E71303900F3D69F</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>131E21661E71303800F3D69F</string>
+				<string>131E217F1E71303900F3D69F</string>
+				<string>131E218A1E71303900F3D69F</string>
+			</array>
+		</dict>
+		<key>131E21621E71303800F3D69F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>131E21921E71303900F3D69F</string>
+				<string>131E21931E71303900F3D69F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>131E21631E71303800F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>131E21721E71303900F3D69F</string>
+				<string>131E216F1E71303900F3D69F</string>
+				<string>131E216C1E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E21641E71303800F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D33E0F03A2C6E9130EE2E6BF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E21651E71303800F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>131E217A1E71303900F3D69F</string>
+				<string>131E21771E71303900F3D69F</string>
+				<string>131E21751E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E21661E71303800F3D69F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>131E21941E71303900F3D69F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2568ED38D10DBD691976A08E</string>
+				<string>131E21631E71303800F3D69F</string>
+				<string>131E21641E71303800F3D69F</string>
+				<string>131E21651E71303800F3D69F</string>
+				<string>9FF1C4FA3D19FBB0877F84C9</string>
+				<string>0E98B4D58E38BAD08F1D7B7D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SymCam</string>
+			<key>productName</key>
+			<string>SymCam</string>
+			<key>productReference</key>
+			<string>131E21671E71303900F3D69F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>131E21671E71303900F3D69F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SymCam.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>131E21681E71303900F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E21671E71303900F3D69F</string>
+				<string>131E21801E71303900F3D69F</string>
+				<string>131E218B1E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21691E71303900F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E216D1E71303900F3D69F</string>
+				<string>131E216E1E71303900F3D69F</string>
+				<string>131E21701E71303900F3D69F</string>
+				<string>131E21711E71303900F3D69F</string>
+				<string>131E21731E71303900F3D69F</string>
+				<string>131E21761E71303900F3D69F</string>
+				<string>131E21781E71303900F3D69F</string>
+				<string>131E217B1E71303900F3D69F</string>
+				<string>131E216A1E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SymCam</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E216A1E71303900F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E216B1E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E216B1E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E216C1E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E216B1E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E216D1E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E216E1E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E216F1E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E216E1E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E21701E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21711E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21721E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E21711E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E21731E71303900F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E21741E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21741E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21751E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E21731E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E21761E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21771E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E21761E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E21781E71303900F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E21791E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21791E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E217A1E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E21781E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E217B1E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E217C1E71303900F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>131E21851E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E217D1E71303900F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>19715D530800C60C8832F5F3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E217E1E71303900F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E217F1E71303900F3D69F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>131E21971E71303900F3D69F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8B75B420BB0BCC2005EA86D5</string>
+				<string>131E217C1E71303900F3D69F</string>
+				<string>131E217D1E71303900F3D69F</string>
+				<string>131E217E1E71303900F3D69F</string>
+				<string>1F77A5EDA793F3BA0B543507</string>
+				<string>CAFF00E0463BA694E2419B6B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>131E21821E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SymCamTests</string>
+			<key>productName</key>
+			<string>SymCamTests</string>
+			<key>productReference</key>
+			<string>131E21801E71303900F3D69F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>131E21801E71303900F3D69F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SymCamTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>131E21811E71303900F3D69F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>131E215F1E71303800F3D69F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>131E21661E71303800F3D69F</string>
+			<key>remoteInfo</key>
+			<string>SymCam</string>
+		</dict>
+		<key>131E21821E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>131E21661E71303800F3D69F</string>
+			<key>targetProxy</key>
+			<string>131E21811E71303900F3D69F</string>
+		</dict>
+		<key>131E21831E71303900F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E21841E71303900F3D69F</string>
+				<string>131E21861E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SymCamTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21841E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SymCamTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21851E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E21841E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E21861E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21871E71303900F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>131E21901E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E21881E71303900F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F985400E59E8817CBF51BB02</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E21891E71303900F3D69F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>131E218A1E71303900F3D69F</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>131E219A1E71303900F3D69F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C6E4DCD413C041FE6A70C312</string>
+				<string>131E21871E71303900F3D69F</string>
+				<string>131E21881E71303900F3D69F</string>
+				<string>131E21891E71303900F3D69F</string>
+				<string>E473A4F4864DBB1AB343F907</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>131E218D1E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SymCamUITests</string>
+			<key>productName</key>
+			<string>SymCamUITests</string>
+			<key>productReference</key>
+			<string>131E218B1E71303900F3D69F</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>131E218B1E71303900F3D69F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>SymCamUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>131E218C1E71303900F3D69F</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>131E215F1E71303800F3D69F</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>131E21661E71303800F3D69F</string>
+			<key>remoteInfo</key>
+			<string>SymCam</string>
+		</dict>
+		<key>131E218D1E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>131E21661E71303800F3D69F</string>
+			<key>targetProxy</key>
+			<string>131E218C1E71303900F3D69F</string>
+		</dict>
+		<key>131E218E1E71303900F3D69F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>131E218F1E71303900F3D69F</string>
+				<string>131E21911E71303900F3D69F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>SymCamUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E218F1E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SymCamUITests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21901E71303900F3D69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>131E218F1E71303900F3D69F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>131E21911E71303900F3D69F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>131E21921E71303900F3D69F</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>131E21931E71303900F3D69F</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.2</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>131E21941E71303900F3D69F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>131E21951E71303900F3D69F</string>
+				<string>131E21961E71303900F3D69F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>131E21951E71303900F3D69F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>747FBF120DC9DE7E01EA8328</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>C2E7L29F76</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SymCam/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hust.blues.SymCam</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>131E21961E71303900F3D69F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7DB3DFBCCCA89AA1E58D83F2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>C2E7L29F76</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SymCam/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hust.blues.SymCam</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>131E21971E71303900F3D69F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>131E21981E71303900F3D69F</string>
+				<string>131E21991E71303900F3D69F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>131E21981E71303900F3D69F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5475BDFB9990BA1699BA663B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>C2E7L29F76</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SymCamTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hust.blues.SymCamTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SymCam.app/SymCam</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>131E21991E71303900F3D69F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>A1F9D255DCC7AF423DA1B672</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>C2E7L29F76</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SymCamTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hust.blues.SymCamTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/SymCam.app/SymCam</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>131E219A1E71303900F3D69F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>131E219B1E71303900F3D69F</string>
+				<string>131E219C1E71303900F3D69F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>131E219B1E71303900F3D69F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>1301BECE1DBFF205705263B2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>C2E7L29F76</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SymCamUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hust.blues.SymCamUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SymCam</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>131E219C1E71303900F3D69F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>07105887F02533DCF8FD2611</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>C2E7L29F76</string>
+				<key>INFOPLIST_FILE</key>
+				<string>SymCamUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.hust.blues.SymCamUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>SymCam</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>19715D530800C60C8832F5F3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>114632DA4B4FA90A95AFF639</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F77A5EDA793F3BA0B543507</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SymCamTests/Pods-SymCamTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>2568ED38D10DBD691976A08E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>5475BDFB9990BA1699BA663B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SymCamTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SymCamTests/Pods-SymCamTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>747FBF120DC9DE7E01EA8328</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SymCam.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SymCam/Pods-SymCam.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB3DFBCCCA89AA1E58D83F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SymCam.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SymCam/Pods-SymCam.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8B75B420BB0BCC2005EA86D5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>9FF1C4FA3D19FBB0877F84C9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SymCam/Pods-SymCam-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>A1F9D255DCC7AF423DA1B672</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-SymCamTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-SymCamTests/Pods-SymCamTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB53601D995F5D1586ED3492</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CC32681926127B78270CFC85</string>
+				<string>114632DA4B4FA90A95AFF639</string>
+				<string>E3876AB26D98A9E766338BFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C6E4DCD413C041FE6A70C312</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>CAFF00E0463BA694E2419B6B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SymCamTests/Pods-SymCamTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>CC32681926127B78270CFC85</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-SymCam.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D33E0F03A2C6E9130EE2E6BF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CC32681926127B78270CFC85</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E3876AB26D98A9E766338BFF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-SymCamUITests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E473A4F4864DBB1AB343F907</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>&#128230; Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-SymCamUITests/Pods-SymCamUITests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>F5C0036FD435328B02AED32B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>747FBF120DC9DE7E01EA8328</string>
+				<string>7DB3DFBCCCA89AA1E58D83F2</string>
+				<string>5475BDFB9990BA1699BA663B</string>
+				<string>A1F9D255DCC7AF423DA1B672</string>
+				<string>1301BECE1DBFF205705263B2</string>
+				<string>07105887F02533DCF8FD2611</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F985400E59E8817CBF51BB02</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E3876AB26D98A9E766338BFF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>131E215F1E71303800F3D69F</string>
+</dict>
+</plist>
