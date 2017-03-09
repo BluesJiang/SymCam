@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131E216C1E71303900F3D69F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E216B1E71303900F3D69F /* main.m */; };
+		131E216F1E71303900F3D69F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E216E1E71303900F3D69F /* AppDelegate.m */; };
+		131E21721E71303900F3D69F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E21711E71303900F3D69F /* ViewController.m */; };
+		131E21751E71303900F3D69F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131E21731E71303900F3D69F /* Main.storyboard */; };
+		131E21771E71303900F3D69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131E21761E71303900F3D69F /* Assets.xcassets */; };
+		131E217A1E71303900F3D69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131E21781E71303900F3D69F /* LaunchScreen.storyboard */; };
+		131E21851E71303900F3D69F /* SymCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E21841E71303900F3D69F /* SymCamTests.m */; };
+		131E21901E71303900F3D69F /* SymCamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 131E218F1E71303900F3D69F /* SymCamUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		131E21811E71303900F3D69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131E215F1E71303800F3D69F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131E21661E71303800F3D69F;
+			remoteInfo = SymCam;
+		};
+		131E218C1E71303900F3D69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131E215F1E71303800F3D69F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131E21661E71303800F3D69F;
+			remoteInfo = SymCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131E21671E71303900F3D69F /* SymCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		131E216B1E71303900F3D69F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		131E216D1E71303900F3D69F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		131E216E1E71303900F3D69F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		131E21701E71303900F3D69F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		131E21711E71303900F3D69F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		131E21741E71303900F3D69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		131E21761E71303900F3D69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		131E21791E71303900F3D69F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		131E217B1E71303900F3D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131E21801E71303900F3D69F /* SymCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		131E21841E71303900F3D69F /* SymCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymCamTests.m; sourceTree = "<group>"; };
+		131E21861E71303900F3D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		131E218B1E71303900F3D69F /* SymCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SymCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		131E218F1E71303900F3D69F /* SymCamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymCamUITests.m; sourceTree = "<group>"; };
+		131E21911E71303900F3D69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		131E21641E71303800F3D69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E217D1E71303900F3D69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E21881E71303900F3D69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131E215E1E71303800F3D69F = {
+			isa = PBXGroup;
+			children = (
+				131E21691E71303900F3D69F /* SymCam */,
+				131E21831E71303900F3D69F /* SymCamTests */,
+				131E218E1E71303900F3D69F /* SymCamUITests */,
+				131E21681E71303900F3D69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		131E21681E71303900F3D69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				131E21671E71303900F3D69F /* SymCam.app */,
+				131E21801E71303900F3D69F /* SymCamTests.xctest */,
+				131E218B1E71303900F3D69F /* SymCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		131E21691E71303900F3D69F /* SymCam */ = {
+			isa = PBXGroup;
+			children = (
+				131E216D1E71303900F3D69F /* AppDelegate.h */,
+				131E216E1E71303900F3D69F /* AppDelegate.m */,
+				131E21701E71303900F3D69F /* ViewController.h */,
+				131E21711E71303900F3D69F /* ViewController.m */,
+				131E21731E71303900F3D69F /* Main.storyboard */,
+				131E21761E71303900F3D69F /* Assets.xcassets */,
+				131E21781E71303900F3D69F /* LaunchScreen.storyboard */,
+				131E217B1E71303900F3D69F /* Info.plist */,
+				131E216A1E71303900F3D69F /* Supporting Files */,
+			);
+			path = SymCam;
+			sourceTree = "<group>";
+		};
+		131E216A1E71303900F3D69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				131E216B1E71303900F3D69F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		131E21831E71303900F3D69F /* SymCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				131E21841E71303900F3D69F /* SymCamTests.m */,
+				131E21861E71303900F3D69F /* Info.plist */,
+			);
+			path = SymCamTests;
+			sourceTree = "<group>";
+		};
+		131E218E1E71303900F3D69F /* SymCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				131E218F1E71303900F3D69F /* SymCamUITests.m */,
+				131E21911E71303900F3D69F /* Info.plist */,
+			);
+			path = SymCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		131E21661E71303800F3D69F /* SymCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131E21941E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCam" */;
+			buildPhases = (
+				131E21631E71303800F3D69F /* Sources */,
+				131E21641E71303800F3D69F /* Frameworks */,
+				131E21651E71303800F3D69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SymCam;
+			productName = SymCam;
+			productReference = 131E21671E71303900F3D69F /* SymCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		131E217F1E71303900F3D69F /* SymCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131E21971E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamTests" */;
+			buildPhases = (
+				131E217C1E71303900F3D69F /* Sources */,
+				131E217D1E71303900F3D69F /* Frameworks */,
+				131E217E1E71303900F3D69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131E21821E71303900F3D69F /* PBXTargetDependency */,
+			);
+			name = SymCamTests;
+			productName = SymCamTests;
+			productReference = 131E21801E71303900F3D69F /* SymCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		131E218A1E71303900F3D69F /* SymCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 131E219A1E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamUITests" */;
+			buildPhases = (
+				131E21871E71303900F3D69F /* Sources */,
+				131E21881E71303900F3D69F /* Frameworks */,
+				131E21891E71303900F3D69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131E218D1E71303900F3D69F /* PBXTargetDependency */,
+			);
+			name = SymCamUITests;
+			productName = SymCamUITests;
+			productReference = 131E218B1E71303900F3D69F /* SymCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131E215F1E71303800F3D69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = blues;
+				TargetAttributes = {
+					131E21661E71303800F3D69F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C2E7L29F76;
+						ProvisioningStyle = Automatic;
+					};
+					131E217F1E71303900F3D69F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C2E7L29F76;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 131E21661E71303800F3D69F;
+					};
+					131E218A1E71303900F3D69F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C2E7L29F76;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 131E21661E71303800F3D69F;
+					};
+				};
+			};
+			buildConfigurationList = 131E21621E71303800F3D69F /* Build configuration list for PBXProject "SymCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 131E215E1E71303800F3D69F;
+			productRefGroup = 131E21681E71303900F3D69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				131E21661E71303800F3D69F /* SymCam */,
+				131E217F1E71303900F3D69F /* SymCamTests */,
+				131E218A1E71303900F3D69F /* SymCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		131E21651E71303800F3D69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E217A1E71303900F3D69F /* LaunchScreen.storyboard in Resources */,
+				131E21771E71303900F3D69F /* Assets.xcassets in Resources */,
+				131E21751E71303900F3D69F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E217E1E71303900F3D69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E21891E71303900F3D69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		131E21631E71303800F3D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E21721E71303900F3D69F /* ViewController.m in Sources */,
+				131E216F1E71303900F3D69F /* AppDelegate.m in Sources */,
+				131E216C1E71303900F3D69F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E217C1E71303900F3D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E21851E71303900F3D69F /* SymCamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		131E21871E71303900F3D69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				131E21901E71303900F3D69F /* SymCamUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		131E21821E71303900F3D69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131E21661E71303800F3D69F /* SymCam */;
+			targetProxy = 131E21811E71303900F3D69F /* PBXContainerItemProxy */;
+		};
+		131E218D1E71303900F3D69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131E21661E71303800F3D69F /* SymCam */;
+			targetProxy = 131E218C1E71303900F3D69F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		131E21731E71303900F3D69F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131E21741E71303900F3D69F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		131E21781E71303900F3D69F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				131E21791E71303900F3D69F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		131E21921E71303900F3D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		131E21931E71303900F3D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		131E21951E71303900F3D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2E7L29F76;
+				INFOPLIST_FILE = SymCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		131E21961E71303900F3D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2E7L29F76;
+				INFOPLIST_FILE = SymCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		131E21981E71303900F3D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C2E7L29F76;
+				INFOPLIST_FILE = SymCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymCam.app/SymCam";
+			};
+			name = Debug;
+		};
+		131E21991E71303900F3D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C2E7L29F76;
+				INFOPLIST_FILE = SymCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SymCam.app/SymCam";
+			};
+			name = Release;
+		};
+		131E219B1E71303900F3D69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C2E7L29F76;
+				INFOPLIST_FILE = SymCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SymCam;
+			};
+			name = Debug;
+		};
+		131E219C1E71303900F3D69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C2E7L29F76;
+				INFOPLIST_FILE = SymCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hust.blues.SymCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SymCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		131E21621E71303800F3D69F /* Build configuration list for PBXProject "SymCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E21921E71303900F3D69F /* Debug */,
+				131E21931E71303900F3D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		131E21941E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E21951E71303900F3D69F /* Debug */,
+				131E21961E71303900F3D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		131E21971E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E21981E71303900F3D69F /* Debug */,
+				131E21991E71303900F3D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		131E219A1E71303900F3D69F /* Build configuration list for PBXNativeTarget "SymCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131E219B1E71303900F3D69F /* Debug */,
+				131E219C1E71303900F3D69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131E215F1E71303800F3D69F /* Project object */;
+}
